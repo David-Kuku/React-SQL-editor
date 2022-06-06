@@ -1,0 +1,90 @@
+.tableContainer {
+    overflow-x: auto;
+    border-radius: 10px;
+
+}
+.table {
+    min-width: 100%;
+}
+.tableHead {
+    background-color: purple;
+    color: white;
+    height: 50px;
+    white-space: nowrap;
+}
+
+.rows {
+    height: 60px;
+    
+}
+
+.cells {
+    white-space: nowrap;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.searchContainer{
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.searchText {
+    font-weight: 500;
+    color: purple;
+    margin-right: 10px;
+}
+.input {
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    border: 2px solid rgb(187, 185, 185);
+    padding-left: 10px;
+}
+.iconButton {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+.paginationContainer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.paginationSelect{
+    margin-left: 5px;
+    height: 30px;
+    border-radius: 5px;
+    border: 2px solid grey;
+}
+.paginationNavigator{
+    display: flex;
+}
+
+.runtime{
+    font-weight: 700;
+    color: purple;
+    font-size: 17px;
+}
+
+.csvDownloadBtn {
+    color: white;
+    background-color: purple;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    width: 80px;
+    cursor: pointer;
+}
+
+.tableSectionContainer{
+    padding-left: 5%;
+    padding-right: 5%;
+}

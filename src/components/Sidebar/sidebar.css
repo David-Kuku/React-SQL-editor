@@ -1,0 +1,51 @@
+.nav-menu {
+    background-color: #A0DDE2;
+    width: 250px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: -100%;
+    transition: 850ms;
+  }
+  
+  .nav-menu.active {
+    left: 0;
+    transition: 350ms;
+    background-color: whitesmoke;
+    z-index: 100;
+  }
+
+  .nav-menu-items {
+    list-style: circle;
+  }
+  
+  .nav-text {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 8px 0px 8px 16px;
+    height: 40px;
+    color: black;
+    font-size: 100;
+    cursor: pointer;
+  }
+
+  .column {
+    min-width: 150px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .closeSideBar {
+    color: red;
+    margin-top: 10px;
+    margin-right: 25px;
+    cursor: pointer;
+  }
+
+  .sidebarHeader {
+    color: black;
+    font-weight: 700;
+  }

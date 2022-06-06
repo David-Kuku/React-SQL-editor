@@ -1,0 +1,19 @@
+.container {
+    background-color: rgb(99, 20, 99);
+    height: 50px;
+    display: flex;
+    justify-content: flex-start;
+    padding-right: 5%;
+    padding-left: 2%;
+    align-items: center;
+    align-content: center;
+    color: white;
+    font-weight: 700;
+}
+.editorText{
+    margin-left: 10px;
+}
+
+.hamburger{
+    cursor: pointer;
+}

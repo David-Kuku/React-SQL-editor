@@ -1,0 +1,20 @@
+.playButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: purple;
+    color: whitesmoke;
+    border-radius: 5px;
+    border: none;
+    margin-left: 2%;
+    width: 150px;
+    margin-top: 10px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.container {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 20px;
+}
