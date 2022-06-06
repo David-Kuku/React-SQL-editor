@@ -11,16 +11,16 @@
 #### I also used React.memo, useMemo and the useCallback hooks to optimize the general performance of the app.
 
 ### Predefined Queries I had
-select * from customers
-select * from categories,
-select * from customers,
-select * from employee_territories,
-select * from employees,
-select * from order_details,
-select * from orders,
-select * from products,
-select * from regions,
-select * from shippers,
-select * from suppliers,
-select * from territories,
-select * from contacts
+select * from customers <br>
+select * from categories, <br>
+select * from customers, <br>
+select * from employee_territories, <br>
+select * from employees, <br>
+select * from order_details, <br>
+select * from orders, <br>
+select * from products, <br>
+select * from regions, <br>
+select * from shippers, <br>
+select * from suppliers, <br>
+select * from territories, <br>
+select * from contacts <br>
